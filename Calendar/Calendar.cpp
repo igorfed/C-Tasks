@@ -38,9 +38,9 @@ void NEXTMounth(const vector <int> Mounth, vector<vector<string>>& day, int& n, 
 		day.resize(Mounth[n]);
 	}
 	if (Mounth[n] < Mounth[n1]) {
-		for (int h = 0; h < (Mounth[n1] - Mounth[n]); h++) 
+		for (int h = 0; h < (Mounth[n1] - Mounth[n]); h++) {
 			day[Mounth[n] - 1].insert(end(day[Mounth[n] - 1]), begin(day[Mounth[n1] - 1 - h]), end(day[Mounth[n1] - 1 - h]));
-		
+		}
 		day.resize(Mounth[n]);
 	}
 }
@@ -81,5 +81,5 @@ int main()
 	}
 
 }
-/**/
+
 
