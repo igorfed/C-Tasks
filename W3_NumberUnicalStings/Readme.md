@@ -10,3 +10,6 @@ First, the number of lines N is entered, then the N lines themselves, separated 
 ## Inputs
 
 Print int number of unical string in a set
+```
+3
+```
