@@ -7,7 +7,7 @@ First, the number of lines N is entered, then the N lines themselves, separated 
 ```
 6 first second first third second second
 ```
-## Inputs
+## Outputs
 
 Print int number of unical string in a set
 ```
